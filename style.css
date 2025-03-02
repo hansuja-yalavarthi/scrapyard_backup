@@ -1,0 +1,29 @@
+#canvas
+{
+    background-color:#30c0df;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    padding: auto;
+    
+}
+
+#canvas::after {
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 2px;
+    height: 200%;
+    background: linear-gradient(to bottom, 
+      transparent 0%,
+      #0f0 50%,
+      transparent 100%);
+    animation: matrixRain 2s linear infinite;
+    opacity: 0.3;
+  }
+  
+  @keyframes matrixRain {
+    0% { top: -100%; }
+    100% { top: 100%; }
+  }
