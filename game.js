@@ -6,8 +6,8 @@ scrn.focus();
 
 const BASE_GRAVITY = 0.125;
 const MIN_GRAVITY = 0.02;  // Very low gravity (floaty)
-const MAX_GRAVITY = 0.4;   // Very high gravity (heavy)
-const GRAVITY_INTERVAL = 3000; // Change every 3 seconds instead of 5
+const MAX_GRAVITY = 0.2;   // Very high gravity (heavy)
+const GRAVITY_INTERVAL = 5000; // Change every 3 seconds instead of 5
 
 /*
 scrn.addEventListener("click", () => {
